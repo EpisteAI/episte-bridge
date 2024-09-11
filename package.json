@@ -1,0 +1,39 @@
+{
+  "name": "@episte-ai/episte-bridge",
+  "version": "0.0.0",
+  "description": "A package for integrating Episte Mini Apps with official Episte clients for iOS, Android and Web",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build",
+    "prepublishOnly": "npm version patch",
+    "lint": "eslint --fix --ext .tsx,.ts src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpisteAI/episte-bridge.git"
+  },
+  "keywords": [
+    "episte",
+    "episteai",
+    "miniapp",
+    "ai"
+  ],
+  "author": "Alexander Samorodov <alexander.samorodov@hipasus.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/EpisteAI/episte-bridge/issues"
+  },
+  "homepage": "https://github.com/EpisteAI/episte-bridge#readme",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
+    "@typescript-eslint/parser": "^8.5.0",
+    "eslint": "^8.43.0"
+  }
+}
