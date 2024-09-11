@@ -1,6 +1,6 @@
 {
   "name": "@episte-ai/episte-bridge",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A package for integrating Episte Mini Apps with official Episte clients for iOS, Android and Web",
   "main": "dist/index.js",
   "scripts": {
